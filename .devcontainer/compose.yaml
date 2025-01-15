@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/python/Dockerfile
+    tty: true
+    volumes:
+      - ../src:/app
+    working_dir: /app
+    env_file:
+      - .env

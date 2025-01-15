@@ -1,0 +1,6 @@
+{
+	"name": "Python3",
+    "dockerComposeFile": "./compose.yaml",
+    "service": "app",
+    "workspaceFolder": "/app"
+}
